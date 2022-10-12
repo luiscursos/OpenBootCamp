@@ -1,0 +1,52 @@
+public class OpenBootCamp {
+
+   
+    public static void main(String[] args) {
+
+int numeroIf = 10;
+        if (numeroIf >= 0) {
+            System.out.println(numeroIf + " Es positivo");
+        } else {
+            System.out.println(numeroIf + " Es negativo");
+
+        }
+
+        int numeroWhile = 1;
+        while (numeroWhile < 3) {
+            System.out.println("Este es el bucle while, iteracción " + numeroWhile);
+            numeroWhile++;
+        }
+
+        int numeroWhile2 = 2;
+        do {
+            System.out.println("Este es el bucle do While, iteracción  " + numeroWhile2);
+            numeroWhile2++;
+        } while (numeroWhile2 < 3);
+
+        for (int numeroFor = 0; numeroFor <= 3; numeroFor++) {
+            System.out.println("Buecle For, iteracción " + numeroFor);
+        }
+
+        String estacion2 = "Otoño";
+
+        switch (estacion2) {
+            case "Verano":
+                System.out.println("Es Verano");
+                break;
+            case "Invierno":
+                System.out.println("Es Invierno");
+                break;
+            case "Primavera":
+                System.out.println("Es Primavera");
+                break;
+            case "Otoño":
+                System.out.println("Es otoño");
+                break;
+            default:
+                System.out.println("No es ninguna estacion");
+               
+            
+         }
+    }
+}
+                
