@@ -7,7 +7,7 @@
 # El uso de colecciones
 
 
-
+lista_nPrimos=[]
 
 
 def main():
@@ -16,7 +16,7 @@ def main():
 
 
 def numeros_primos(numero_final):
-    lista_nPrimos=[]
+    
     numero = 2
 
     while numero < numero_final:
@@ -28,9 +28,11 @@ def numeros_primos(numero_final):
             count+=1
         if resto ==0:
             lista_nPrimos.append(numero)
-            print(numero, "Es primo")
+            #print(numero, "Es primo")
 
         numero+=1
+    for i in lista_nPrimos:
+        print(i,"Es un numero primo")
 
 if __name__ == '__main__':
     main()
